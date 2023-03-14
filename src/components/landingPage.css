@@ -1,0 +1,76 @@
+section>header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(150deg , rgba(172,80,242), rgba(43,171,197));
+}
+section>header>img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: 5%;
+}
+section>header>div{
+    width: 70px;
+    height: 70px;
+    margin-right: 5%;
+}
+section>header>h1{
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+section>section{
+    margin-top: 5%;
+}
+section>section>div:first-child{
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    color: blue;
+    margin: auto;
+    background-color: #eee8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    border: 2px double black
+}
+
+section>section>div:last-child{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+section>section>div:last-child>button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+section>section>div:last-child>button:nth-child(2){
+    width: 75px;
+    height: 75px;
+    background-color: rgb(89, 89, 238);
+    font-size: 20px;
+}
+
+section>section>div:last-child>button:nth-child(1){
+    background-color: rgb(34, 144, 34);
+    font-size: 40px;
+}
+
+section>section>div:last-child>button:nth-child(3){
+    background-color: rgb(201, 82, 82);
+    font-size: 40px;
+}
